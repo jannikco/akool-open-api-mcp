@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "c18dd395225a28e87a383c9206e2ccdb6a02a064e85dff5888261f2157e61d9b",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.akool.com/"
+  ],
+  "id": "akool-open-api-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AKOOL MCP setup and connection checker",
+  "description": "Generate AKOOL MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "akool-open-api",
+  "appName": "AKOOL",
+  "providerDocs": "https://docs.akool.com/",
+  "providerWebsite": "https://akool.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.akool.com/authentication/usage",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-akool-open-api-mcp"
+}
