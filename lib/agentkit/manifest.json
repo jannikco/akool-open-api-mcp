@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-akool-open-api",
+      "description": "Connect AI agents to AKOOL using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-akool-open-api/SKILL.md": "41a85b56d9ff8ca819a559af2f0d0927f94527b7ac6cc4a8a01359f22653e8c0"
+  }
+}
